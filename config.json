@@ -1,0 +1,21 @@
+{
+  "data": {
+    "guests": [
+      {
+        "pageId": "mom-dad",
+        "persons": [
+          "Мама",
+          "Папа"
+        ]
+      }
+    ]
+  },
+  "sequences": {
+    "guest.njk": {
+      "data": "guests",
+      "dest": "guests",
+      "fileName": "pageId",
+      "templateData": "guest"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.page {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  min-height: 100vh;
+  background-color: $background-primary;
+  font-family: $font-primary;
+  font-weight: $font-weight-default;
+  font-style: normal;
+  color: $color-primary;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}

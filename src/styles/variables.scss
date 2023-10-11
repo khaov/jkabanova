@@ -1,0 +1,28 @@
+$font-fallback:
+  -apple-system,
+  "BlinkMacSystemFont",
+  "Segoe UI",
+  "Roboto",
+  "Helvetica",
+  " Arial",
+  sans-serif,
+  "Apple Color Emoji",
+  "Segoe UI Emoji",
+  "Segoe UI Symbol",
+  sans-serif;
+
+$font-primary: 'FiraSans',
+$font-fallback;
+
+$font-secondary: 'Tinos',
+$font-fallback;
+
+$font-weight-default: 400;
+
+$color-primary: #333333;
+$color-secondary: #009EA8;
+$color-accent: #DD4B45;
+
+$background-primary: #F5F5F5;
+$background-secondary: #E6FFF3;
+$background-accent: #FFF5EA;
