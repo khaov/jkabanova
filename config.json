@@ -1,21 +1,21 @@
 {
   "data": {
-    "guests": [
+    "events": [
       {
-        "pageId": "mom-dad",
+        "pageId": "biba-boba",
         "persons": [
-          "Мама",
-          "Папа"
+          "Биба",
+          "Боба"
         ]
       }
     ]
   },
   "sequences": {
-    "guest.njk": {
-      "data": "guests",
-      "dest": "guests",
+    "event.njk": {
+      "data": "events",
+      "dest": "events",
       "fileName": "pageId",
-      "templateData": "guest"
+      "templateData": "event"
     }
   }
 }

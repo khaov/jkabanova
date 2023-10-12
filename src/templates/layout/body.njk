@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Заголовок</title>
+    <title></title>
 
     {% block styles %}
       <link rel="stylesheet" href="/css/vendor.css">
@@ -20,37 +20,27 @@
 
     <!-- Header -->
 
-    <header class="header"></header>
+    {% block header %}
+      {% include "layout/header/default.njk" %}
+    {% endblock %}
 
     <!-- Content -->
 
     <main class="content">
-
-      <!-- Section -->
-
-      <section class="section">
-        <div class="section__container container">
-          <div class="section__wrapper">
-
-          </div>
-        </div>
-      </section>
-
+      {% block content %}{% endblock %}
     </main>
 
     <!-- Footer -->
 
-    <footer class="footer">
-
-      <!-- Copyright -->
-
-      <div class="footer__copyright">
-        <p class="copyright">2022–&infin; Копирайт</p>
-      </div>
-    </footer>
+    {% block footer %}
+        {% include "layout/footer/default.njk" %}
+    {% endblock %}
 
     <!-- Scripts -->
 
-    <script src="js/main.js"></script>
+    {% block scripts %}
+      <script src="js/main.js"></script>
+    {% endblock %}
+
   </body>
 </html>
