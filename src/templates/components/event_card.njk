@@ -1,0 +1,5 @@
+{% macro event_card(event = {}) %}
+  <a class="event-card" href="/events/{{ event.pageId }}.html" target="_blank">
+    {{ event.persons[0] }} и {{ event.persons[1] }}
+  </a>
+{% endmacro %}

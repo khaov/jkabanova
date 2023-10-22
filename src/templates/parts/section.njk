@@ -1,0 +1,8 @@
+{% set section_title = section_title | default("") %}
+
+<section class="section">
+  <div class="container">
+    <h2>{{ section_title | safe }}</h2>
+    {% block section_content %}{% endblock %}
+  </div>
+</section>

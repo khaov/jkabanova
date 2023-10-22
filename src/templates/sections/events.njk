@@ -1,0 +1,17 @@
+{% extends "parts/section.njk" %}
+
+{% from "components/event_card.njk" import event_card %}
+
+{% set section_title = "Наши работы" %}
+
+{% block section_content %}
+  <div class="events">
+    <ul class="events__list">
+      {% for event in events %}
+        <li class="events__item">
+          {{ event_card(event) }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}

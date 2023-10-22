@@ -1,11 +1,7 @@
 {% extends "layout/body.njk" %}
 
 {% block content %}
-  <section class="section">
-    <div class="section__container container">
-      <div class="section__wrapper">
-        <h1>Hello World!!!</h1>
-      </div>
-    </div>
-  </section>
+  {% include "sections/about.njk" %}
+  {% include "sections/events.njk" %}
+  {% include "sections/prices.njk" %}
 {% endblock %}

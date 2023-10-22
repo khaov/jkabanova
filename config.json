@@ -2,10 +2,24 @@
   "data": {
     "events": [
       {
-        "pageId": "biba-boba",
+        "pageId": "pageId1",
         "persons": [
-          "Биба",
-          "Боба"
+          "Бэтмен",
+          "Робин"
+        ]
+      },
+      {
+        "pageId": "pageId2",
+        "persons": [
+          "Джей",
+          "Молчаливый Боб"
+        ]
+      },
+      {
+        "pageId": "pageId3",
+        "persons": [
+          "Пинки",
+          "Брейн"
         ]
       }
     ]
