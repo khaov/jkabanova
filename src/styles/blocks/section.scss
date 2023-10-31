@@ -1,27 +1,3 @@
 .section {
   $this : &;
-
-  /* Adaptive styles */
-
-  @include do(1439px) {
-    #{$this}__title {
-
-    }
-  }
-
-  @include do(1279px) {
-
-  }
-
-  @include do(1023px) {
-
-  }
-
-  @include do(767px) {
-
-  }
-
-  @include do(567px) {
-
-  }
 }

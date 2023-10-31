@@ -6,9 +6,9 @@
 
 {% block section_content %}
   <div class="events">
-    <ul class="events__list">
+    <ul class="events__list row">
       {% for event in events %}
-        <li class="events__item">
+        <li class="events__item col">
           {{ event_card(event) }}
         </li>
       {% endfor %}

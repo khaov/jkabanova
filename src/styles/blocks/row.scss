@@ -1,26 +1,31 @@
 .row {
-    display   : flex;
-    flex-wrap : wrap;
-    margin    : 0 -12px -24px;
 
-    & > .col {
-        margin : 0 12px 24px;
-        box-sizing: border-box;
-    }
 
-    @include do(1023px) {
-        margin : 0 -8px -16px;
 
-        & > .col {
-            margin : 0 8px 16px;
-        }
-    }
+    // display   : flex;
+    // flex-wrap : wrap;
+    // margin    : 0 -12px -24px;
 
-    @include do(767px) {
-        margin : 0 -4px -8px;
+    // & > .col {
+    //     margin : 0 12px 24px;
+    //     box-sizing: border-box;
+    // }
 
-        & > .col {
-            margin : 0 4px 8px;
-        }
-    }
+    // @include do(1023px) {
+    //     margin : 0 -8px -16px;
+
+    //     & > .col {
+    //         margin : 0 8px 16px;
+    //     }
+    // }
+
+    // @include do(767px) {
+    //     margin : 0 -4px -8px;
+
+    //     & > .col {
+    //         margin : 0 4px 8px;
+    //     }
+    // }
+
+    
 }

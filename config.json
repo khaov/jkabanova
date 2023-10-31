@@ -2,25 +2,46 @@
   "data": {
     "events": [
       {
-        "pageId": "pageId1",
-        "persons": [
-          "Бэтмен",
-          "Робин"
-        ]
+        "link": "event-link-1",
+        "title": "Красивое название события",
+        "description": "<p>Разреветься улыбаясь )</p><p>Эти ребята, как будто оба спустились с небес.</p><p>Трепет, восхищение и любовь-всё здесь. Они в своем мирке любви, но делятся им на всю Вселенную )</p>",
+        "image": "/images/events/event-image-1.jpg",
+        "video": "/video/events/event-video-1.mp4"
       },
       {
-        "pageId": "pageId2",
-        "persons": [
-          "Джей",
-          "Молчаливый Боб"
-        ]
+        "link": "event-link-1",
+        "title": "Красивое название события",
+        "description": "<p>Разреветься улыбаясь )</p><p>Эти ребята, как будто оба спустились с небес.</p><p>Трепет, восхищение и любовь-всё здесь. Они в своем мирке любви, но делятся им на всю Вселенную )</p>",
+        "image": "/images/events/event-image-1.jpg",
+        "video": "/video/events/event-video-1.mp4"
       },
       {
-        "pageId": "pageId3",
-        "persons": [
-          "Пинки",
-          "Брейн"
-        ]
+        "link": "event-link-1",
+        "title": "Красивое название события",
+        "description": "<p>Разреветься улыбаясь )</p><p>Эти ребята, как будто оба спустились с небес.</p><p>Трепет, восхищение и любовь-всё здесь. Они в своем мирке любви, но делятся им на всю Вселенную )</p>",
+        "image": "/images/events/event-image-1.jpg",
+        "video": "/video/events/event-video-1.mp4"
+      },
+      {
+        "link": "event-link-1",
+        "title": "Красивое название события",
+        "description": "<p>Разреветься улыбаясь )</p><p>Эти ребята, как будто оба спустились с небес.</p><p>Трепет, восхищение и любовь-всё здесь. Они в своем мирке любви, но делятся им на всю Вселенную )</p>",
+        "image": "/images/events/event-image-1.jpg",
+        "video": "/video/events/event-video-1.mp4"
+      },
+      {
+        "link": "event-link-1",
+        "title": "Красивое название события",
+        "description": "<p>Разреветься улыбаясь )</p><p>Эти ребята, как будто оба спустились с небес.</p><p>Трепет, восхищение и любовь-всё здесь. Они в своем мирке любви, но делятся им на всю Вселенную )</p>",
+        "image": "/images/events/event-image-1.jpg",
+        "video": "/video/events/event-video-1.mp4"
+      },
+      {
+        "link": "event-link-1",
+        "title": "Красивое название события",
+        "description": "<p>Разреветься улыбаясь )</p><p>Эти ребята, как будто оба спустились с небес.</p><p>Трепет, восхищение и любовь-всё здесь. Они в своем мирке любви, но делятся им на всю Вселенную )</p>",
+        "image": "/images/events/event-image-1.jpg",
+        "video": "/video/events/event-video-1.mp4"
       }
     ]
   },
@@ -28,7 +49,7 @@
     "event.njk": {
       "data": "events",
       "dest": "events",
-      "fileName": "pageId",
+      "fileName": "link",
       "templateData": "event"
     }
   }
