@@ -1,0 +1,15 @@
+{% macro event_preview(data = {}) %}
+
+  {# Data #}
+  {% set cover = data.cover | default("") %}
+  {% set video = data.video | default("") %}
+
+  <div class="preview">
+    <div class="preview__wrapper">
+      <img class="preview__cover" src="{{ cover }}" loading="lazy">
+      <video class="preview__video" autoplay="autoplay" loop="loop" muted="" preload="auto">
+        <source type="video/mp4" src="{{ video }}">
+      </video>
+    </div>
+  </div>
+{% endmacro %}

@@ -1,17 +1,10 @@
+{% from "components/preview.njk" import event_preview %}
+
 {% macro event_card(event = {}) %}
   <article class="event-card">
     <a class="event-card__link" href="/events/{{ event.link }}.html" target="_blank">
       <div class="event-card__preview">
-
-        <div class="preview">
-          <div class="preview__wrapper">
-            <img class="preview__image" src="{{ event.image }}" loading="lazy">
-            <video class="preview__video" autoplay="autoplay" loop="loop" muted="" preload="auto">
-              <source type="video/mp4" src="{{ event.video }}">
-            </video>
-          </div>
-        </div>
-
+        {{ event_preview({ cover: event.image, video: event.video }) }}
       </div>
       <h3 class="event-card__title">
         {{ event.title }}
